@@ -1,5 +1,4 @@
 import pexpect
-import time
 # Login
 child = pexpect.spawn('ssh elnur@192.168.209.130 -D 1080')
 child.expect("password:")
